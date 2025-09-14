@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 7vh;
+    color: rgb(255, 255, 255);
+    background: #8c00ff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px !important;
+}
+
+.main-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    width: 100vw;
+    color: white;
+    background: #000;
+}
+
+img {
+    object-fit: contain;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
